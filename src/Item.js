@@ -273,7 +273,7 @@ function ItemContent() {
         
         const newBid = {
           emailAddress: bidValues.emailAddress.value,
-          bidAmount: bidAmount,
+          bidAmount: bidAmount, 
           fullName: bidValues.fullName.value,
           phoneNumber: bidValues.phoneNumber.value,
           bidTime: new Date().toLocaleString('en-US', {timeZone: 'America/Denver'})
