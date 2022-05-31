@@ -1,0 +1,47 @@
+.raffle-title,
+.bid-history-title {
+    margin: 0 10px 0 0;
+    color: #1b75d1;
+}
+
+.starting-bid-text {
+    font-size: 25px;
+}
+
+.current-bid-name {
+    font-size: 16px;
+    color: #1b75d1;
+}
+
+.raffle-description {
+    margin: 20px 0;
+}
+
+.raffle-bid-button {
+    margin: 35px 0 15px 0;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.bid-modal-title {
+    margin: 0;
+    color: #1b75d1;
+}
+
+.place-bid-amount {
+    margin-left: 10px;
+}
+
+.place-bid-amount::before{
+    content: "$";
+    position: absolute;
+    left: 0;
+}
+
+.modal-active {
+    display: flex!important;
+}
+
+.modal-hidden {
+    display: none!important;
+}
